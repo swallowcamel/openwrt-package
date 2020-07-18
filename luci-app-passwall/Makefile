@@ -39,19 +39,19 @@ config PACKAGE_$(PKG_NAME)_INCLUDE_V2ray
 
 config PACKAGE_$(PKG_NAME)_INCLUDE_Trojan
 	bool "Include Trojan"
-	default n
+	default y
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_Trojan_GO
 	bool "Include Trojan_GO"
-	default n
+	default y
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_Brook
 	bool "Include Brook"
-	default n
+	default y
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_kcptun
 	bool "Include kcptun"
-	default n
+	default y
 
 config PACKAGE_$(PKG_NAME)_INCLUDE_haproxy
 	bool "Include haproxy"
